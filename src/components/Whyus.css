@@ -1,0 +1,230 @@
+
+
+.we{
+    padding-top: 30px;
+    font-size: 56px;
+    position: absolute;
+    left: 145px;
+    font-weight: 10;
+    
+}
+
+.google{
+    font-size: 56px;
+    font-weight: 10;
+    padding-top: 30px;
+    margin-left: 950px;
+}
+.design_data{
+    padding-top:40px;
+    font-size: 56px;
+    position: absolute;
+    left: 245px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 80px;
+}
+.animate{
+    margin-top: 75px;
+    font-size: 56px;
+    position: absolute;
+    padding-top: 35px;
+    left: 145px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 80px;
+    
+}
+
+.creative{
+    font-size: 70px;
+    padding-top: 150px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 30;
+}
+
+.design{
+    margin-top: -20px;
+    font-size:70px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 20;
+
+}
+
+.outstadning{
+    font-size: 70px;
+    padding-top:180px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 20;
+}
+
+.animation{
+    margin-top: 20px;
+    font-size: 70px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 20;
+}
+.anime{
+    padding-top: 200px;
+    max-width: 80%;
+    border-radius: 50px;
+}
+
+.grass{
+    padding-top:200px;
+    max-width:80%;
+    border-radius: 50px;
+    /* border-top: 50px; */
+}
+
+.arvid{
+    padding-top:50px;
+    max-width:80%;
+    border-radius: 100px;
+    /* border-top-right-radius: 50px; */
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: repeat(2,5fr);
+    margin-left: 130px;
+}
+
+.flexbox{
+    padding-top:85px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:0px;
+    padding-left: 80px;
+    max-width: fit-content;
+}
+
+.boxes{
+    max-width: 100%;
+}
+
+.text{
+    font-family: 'Outfit', 'sans-serif';
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    .we, .design_data, .animate, .creative, .design, .outstanding, .animation, .anime, .grass, .boxes {
+        font-size: 96px;
+    }
+    .we, .design_data, .animate {
+        position: absolute;
+        font-weight: 700;
+    }
+    .we {
+        padding-top: 30px;
+        left: 145px;
+    }
+    .design_data {
+        padding-top: 45px;
+        left: 305px;
+        font-weight: 800;
+    }
+    .animate {
+        margin-top: 75px;
+        padding-top: 75px;
+        left: 145px;
+        font-weight: 100;
+    }
+    .creative, .design, .outstanding, .animation, .anime, .grass {
+        padding-top: 150px;
+    }
+    .outstanding, .animation, .anime {
+        margin-top: -20px;
+        font-weight: 200;
+    }
+    /* .flexbox {
+        padding-top: 85px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+        padding-left: 80px;
+    } */
+    /* .text {
+        font-size: 35px;
+        font-family: 'Outfit', sans-serif;
+    } */
+}
+
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+    .we {
+        font-size: 86px; /* Restore the original font size for desktop */
+        left: 405px;
+        font-weight:100;
+    }
+    .design_data {
+        padding-top: 45px;
+        font-size: 96px;
+        left: 305px;
+        font-weight: 100;
+    }
+    
+    .design_data, .animate {
+        position: absolute;
+        font-weight: 100;
+        left:550px;
+    }
+    .anime{
+        padding-top: 450px;
+        padding-left: 550px;
+        max-width: 180%;
+        margin-left: -90px;
+    }
+
+    .creative{
+        padding-left: 550px;
+    }
+
+    .design{
+        padding-top: 20px;
+        padding-left: 590px;
+    }
+
+    .outstadning{
+        margin-left: 500px;
+    }
+
+    .animation{
+        margin-left: 550px;
+        padding-top: 20px;
+    }
+    .grass{
+        margin-left: 470px;
+        max-width: 190%;
+        border-radius: 50px;
+
+    }
+
+    .boxes{
+        margin-left:150px;
+    }
+
+    .text{
+        margin-left: 350px;
+        font-size: 50px;
+    }
+
+    .anime,
+    .grass {
+        padding-top: 100px;
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    .videos {
+        grid-template-columns: 1fr; /* Change to a single column for smaller screens */
+        margin-left: 0; /* Remove left margin for smaller screens */
+    }
+
+}

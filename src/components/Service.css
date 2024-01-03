@@ -1,0 +1,129 @@
+.darkbg{
+    width:1536px;
+    max-width: 100%;
+    height:1000px;
+}
+
+.service-container {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 15%; 
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Plus Jakarta Sans';
+    color: white; 
+    padding: 10px; 
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.data_overlay {
+    position: absolute;
+    top: 180px; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 30px;
+    text-align: center;
+    width: 1206px;
+}
+
+
+
+.logoes {
+    position: absolute;
+    top: 600px; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 20px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 90px;
+}
+
+.flexData{
+    position: absolute;
+    top: 950px; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 20px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 150px;
+}
+
+.cap{
+    position: absolute;
+    top: 25%; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Plus Jakarta Sans';
+    color: white; 
+    padding: 10px; 
+    font-size: 20px;
+    width:1206px;
+
+}
+
+.badge-logo{
+    max-width: 100%;
+}
+
+@media (max-width: 767px){
+    .text-overlay {
+        position: absolute;
+        top: 20%; 
+        left: 45%; 
+        transform: translate(-50%, -50%);
+        font-family: 'Plus Jakarta Sans';
+        color: white; 
+        padding: 10px; 
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .data_overlay{
+        position: absolute;
+        margin-top: 10px;
+    }
+
+    .cap{
+        margin-top: 200px;
+    }
+    .darkbg{
+        max-width: 400%;
+        /* max-width: 100%; */
+    }
+    .logoes{
+        position: absolute;
+        left:200%;
+    }
+
+    .text-overlay{
+        position: absolute;
+        left:190%;
+    }
+
+    .data_overlay{
+        position: absolute;
+        left:180%;
+    }
+    .cap{
+        position: absolute;
+        left:180%;
+    }
+}
+
+
+

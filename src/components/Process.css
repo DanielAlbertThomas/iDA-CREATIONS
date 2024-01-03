@@ -1,0 +1,70 @@
+.dark-section {
+    background-color: #1E2026; 
+    height: 850px;
+}
+
+.ourprocess{
+    color:white;
+    font-size:40px;
+    position: absolute;
+    margin-left: 620px;
+    padding-top: 20px;
+}
+
+.working{
+    color: white;
+    font-size:70px;
+    position: absolute;
+    left:490px;
+    padding-top: 100px;
+}
+
+.sentence{
+    color: white;
+    font-size:40px;
+    position: absolute;
+    left:320px;
+    padding-top: 200px;
+}
+
+.work_flow{
+    position: absolute;
+    color: white;
+    left:450px;
+    margin-top: 70px;
+    background-color: #AED064;
+    border-radius: 20px;
+    transform: rotate(-20deg);
+    
+}
+
+.flexBox_diamond{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 300px;
+}
+
+/* .flexData{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 100px;
+    color: white;
+    font-size: 20px;
+} */
+
+.card3{
+    max-width: 100%;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+@media (max-width: 767px){
+    .dark-section{
+        width: 400%;
+    }
+
+    .sentence{
+        left: 580px;
+    }
+
+}
